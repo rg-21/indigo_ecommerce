@@ -1,0 +1,60 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  width: 25%;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  height: 64px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  height: 819px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.list {
+  height: max-content;
+  min-width: max-content;
+}
+.icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}

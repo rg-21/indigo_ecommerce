@@ -1,0 +1,35 @@
+<div class="column-layout group"></div>
+<div class="column-layout group_1">
+  <div class="column-layout group_2">
+    <igx-list class="list">
+      <igx-list-item [isHeader]="false">
+        <span igxListThumbnail>
+          <igx-avatar icon="person" [roundShape]="true"></igx-avatar>
+        </span>
+        <span igxListLineTitle>Title goes here</span>
+        <span igxListLineSubTitle>Subtitle...</span>
+        <span igxListAction>
+          <igx-icon class="icon">
+            star
+          </igx-icon>
+        </span>
+      </igx-list-item>
+    </igx-list>
+    <igx-grid [data]="dataSource1Table1?.tags" primaryKey="name" displayDensity="cosy" rowSelection="multiple" cellSelection="multiple" [rowEditable]="true" [moving]="true" columnSelection="multiple" [allowFiltering]="true" filterMode="excelStyleFilter" class="grid">
+      <igx-grid-toolbar>
+        <igx-grid-toolbar-actions>
+          <igx-grid-toolbar-pinning>true</igx-grid-toolbar-pinning>
+          <igx-grid-toolbar-hiding>true</igx-grid-toolbar-hiding>
+          <igx-grid-toolbar-exporter></igx-grid-toolbar-exporter>
+          <igx-grid-toolbar-advanced-filtering></igx-grid-toolbar-advanced-filtering>
+        </igx-grid-toolbar-actions>
+        <igx-grid-toolbar-title>Grid Toolbar</igx-grid-toolbar-title>
+      </igx-grid-toolbar>
+      <igx-column header="name" field="name" dataType="string" [sortable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [hasSummary]="true" title="name"></igx-column>
+      <igx-column header="description" field="description" dataType="string" [sortable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [hasSummary]="true" title="description"></igx-column>
+      <igx-column header="description" field="externalDocs.description" dataType="string" [sortable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [hasSummary]="true" title="externalDocs.description"></igx-column>
+      <igx-column header="url" field="externalDocs.url" dataType="string" [sortable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [hasSummary]="true" title="externalDocs.url"></igx-column>
+      <igx-paginator [perPage]="10"></igx-paginator>
+    </igx-grid>
+  </div>
+</div>

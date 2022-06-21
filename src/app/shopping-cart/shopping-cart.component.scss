@@ -1,0 +1,304 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.inner-pages-header {
+  background-color: #151725;
+  background-image: url("https://filetransfer.infragistics.com/public.php?service=files&t=6411ef0b474804e48e2a432c1160de80&download");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 140px;
+}
+.row-layout {
+  display: flex;
+}
+.content {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 48px 24px;
+  min-width: 50px;
+  flex-shrink: 0;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  min-width: 50px;
+  max-width: 1680px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 600px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_3 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_4 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  width: 60%;
+  min-width: 340px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_5 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 40px;
+  flex-shrink: 0;
+}
+.group_6 {
+  background-color: hsla(var(--igx-grays-200));
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  min-width: 50px;
+  min-height: 36px;
+}
+.group_7 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  margin: 0 0 0 56px;
+  min-width: 280px;
+  min-height: 50px;
+  max-width: 400px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.group_8 {
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: flex-start;
+  padding: 8px;
+  min-width: 50px;
+  min-height: 32px;
+}
+.group_9 {
+  background-color: transparent;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-start;
+  padding: 8px;
+  min-width: 50px;
+  min-height: 32px;
+}
+.group_10 {
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: flex-start;
+  margin: 0 0 24px;
+  padding: 8px;
+  min-width: 50px;
+  min-height: 32px;
+}
+.group_11 {
+  background-color: hsla(var(--igx-warn-500));
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  height: 50px;
+  min-width: 160px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.sitemap {
+  border-color: hsla(var(--igx-grays-200));
+  border-width: 1px 0px 0px;
+  border-style: solid;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  padding: 24px;
+  min-width: 50px;
+  min-height: 170px;
+}
+.group_12 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_13 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.footer {
+  background-color: hsla(var(--igx-grays-100));
+  border-color: hsla(var(--igx-grays-200));
+  border-width: 0px 0px 1px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 24px;
+  height: 50px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_14 {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-height: 50px;
+}
+.image {
+  object-fit: none;
+  min-width: 0;
+  min-height: 0;
+  flex-shrink: 0;
+}
+.text {
+  color: hsla(var(--igx-surface-500));
+  margin: 8px 0 0;
+  height: max-content;
+  min-width: min-content;
+}
+.h5 {
+  margin: 0 0 24px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_1 {
+  height: max-content;
+  min-width: min-content;
+}
+.text_2 {
+  margin: 0 8px 0 0;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.text_3 {
+  text-align: center;
+  height: max-content;
+  min-width: 30px;
+  flex-shrink: 0;
+}
+.text_4 {
+  text-align: right;
+  margin: 0 0 0 60px;
+  height: max-content;
+  min-width: min-content;
+}
+.icon {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: hsla(var(--igx-grays-600));
+}
+.h6 {
+  margin: 0 0 24px;
+  height: max-content;
+}
+.content_1 {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.content_2 {
+  text-align: right;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.text_7 {
+  text-align: right;
+  height: max-content;
+  min-width: min-content;
+}
+.hyperlink {
+  color: hsla(var(--igx-primary-500));
+  height: max-content;
+  min-width: min-content;
+}
+.text_5 {
+  margin: 8px 0 0;
+  height: max-content;
+  min-width: min-content;
+}
+.text_6 {
+  color: hsla(var(--igx-grays-800));
+  margin: 0 16px 0 0;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.text_8 {
+  color: hsla(var(--igx-grays-700));
+  margin: 0 32px 0 0;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.text_9 {
+  color: hsla(var(--igx-grays-700));
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.list {
+  height: max-content;
+}
+.button {
+  color: hsla(var(--igx-surface-500));
+  height: max-content;
+  min-width: min-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}

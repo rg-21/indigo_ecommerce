@@ -1,0 +1,52 @@
+<div class="row-layout group">
+  <img src="https://filetransfer.infragistics.com/public.php?service=files&t=a9fc08268fef6b036578d0788c4b593f&download" routerLink="/home" class="image" />
+  <div class="row-layout group_1">
+    <button igxButton="flat" igxRipple routerLink="/all-products" class="button">
+      Auto Body Parts
+    </button>
+    <button igxButton="flat" igxRipple class="button">
+      Lighting
+    </button>
+    <button igxButton="flat" igxRipple class="button">
+      Engine &amp; Drivetrain
+    </button>
+    <button igxButton="flat" igxRipple class="button">
+      Brakes &amp; Suspension
+    </button>
+    <button igxButton="flat" igxRipple class="button">
+      Engine &amp; Drivetrain
+    </button>
+    <button igxButton="flat" igxRipple class="button">
+      Interior
+    </button>
+    <button igxButton="flat" igxRipple class="button">
+      Exterior
+    </button>
+    <button igxButton="raised" igxRipple routerLink="/grid-view" class="button_1">
+      Grid
+    </button>
+    <button igxButton="raised" igxRipple class="button_1">
+      List
+    </button>
+  </div>
+  <div class="row-layout group_2">
+    <button igxButton="icon" igxRipple class="button_2">
+      <igx-icon>
+        search
+      </igx-icon>
+    </button>
+    <button igxButton="icon" igxRipple class="button_2">
+      <igx-icon>
+        account_circle
+      </igx-icon>
+    </button>
+    <button igxButton="icon" igxRipple routerLink="/shopping-cart" class="button_2">
+      <igx-icon>
+        shopping_cart
+      </igx-icon>
+    </button>
+  </div>
+</div>
+<div class="view-container">
+  <router-outlet></router-outlet>
+</div>
